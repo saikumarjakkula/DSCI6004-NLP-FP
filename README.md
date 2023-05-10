@@ -1,16 +1,31 @@
 # DSCI6004-NLP-FP
-Category Detection using Amazon Queries
-What is Intent Detection?
+# Category Detection using Amazon Queries
+This NLP project is an end-to-end exploratory 
+investigation of how advanced deep learning algorithms have 
+the potential to help us classify the purpose of an Amazon 
+customer's inquiry without the need for human interaction. 
+After understanding the purpose or intent of the message, this 
+scenario could make a chat-bot select what message should be 
+sent to the consumer.The motivation for category detection 
+using user queries is to improve the accuracy and relevance of 
+search results and recommendations provided to users. When 
+users search for information or interact with a system, they 
+often use natural language queries that can be ambiguous or 
+unclear
+## What is Intent Detection?
 Category detection involves analyzing and categorizing user utterances into predefined categories or labels that represent different categories of information or topics. These categories can vary depending on the application or domain. For example, in a news categorization system, categories might include "sports," "politics," "entertainment," or "technology." The goal is to accurately identify the appropriate category for each user input, allowing for efficient organization and retrieval of relevant information.
-Why BERT for Category Detection?
+## Why BERT for Category Detection?
 BERT is typically pretrained on a large corpus of text data using unsupervised learning. This pretraining enables BERT to learn general language representations that can be fine-tuned for specific tasks like intent detection.
 BERT's bidirectional nature allows it to capture contextual information effectively. It can understand the meaning of a word based on its surrounding words, which is beneficial for intent detection, as it enables the model to consider the full context of the user query
+## Dataset
 The below dataset should cover a wide range of intents and include representative examples of user inputs.
 https://www.kaggle.com/code/kagarg/chatbot/input?select=multi_questions.csv
 
 # References
 https://medium.com/geekculture/banking-query-intentdetector-bbbb20c973bb
+
 https://github.com/sengorajkumar/NLP-Intent-Classification
+
 https://www.kaggle.com/code/kagarg/chatbot/input?select=multi_questions.csv
 
 S. Ramachandran and S. Sankararaman, "Intent Recognition for 
